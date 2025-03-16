@@ -25,7 +25,7 @@ body {
     position: relative;
     background: url('./77817.jpg');
     background-size: cover;
-    background-position: center -1600px; /* Adjust the value to move the image up or down */
+    background-position: center -1400px; /* Adjust the value to move the image up or down */
     display: flex;
     align-items: center;
     justify-content: center;
