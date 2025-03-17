@@ -1,0 +1,1 @@
+Welcome to my personal portfolio website! This website showcases my skills, projects, certifications, education, and more. I am a passionate Full Stack Developer with a strong focus on building dynamic and responsive web applications.
