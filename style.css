@@ -23,7 +23,7 @@ body {
 .hero {
     height: 100vh;
     position: relative;
-    background: url('./77817.jpg');
+    background: url('./Aizen.png');
     background-size: cover;
  /* Adjust the value to move the image up or down */
     display: flex;
