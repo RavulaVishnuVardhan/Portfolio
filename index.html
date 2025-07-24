@@ -1,151 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ravula Vishnu Vardhan Reddy - Portfolio</title>
+    <title>Ravula Vishnu Vardhan Reddy | Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="icon" href="./IMG_20230315_120448.jpg">
 </head>
+
 <body>
-    <header class="hero">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
+    <header>
+        <div class="header-content">
             <h1>Ravula Vishnu Vardhan Reddy</h1>
-            <p>Full Stack Developer</p>
-            <div class="social-links">
-                <a href="https://github.com/RavulaVishnuVardhan" class="social-link">GitHub</a>
-                <a href="https://www.linkedin.com/in/ravula-vishnu-vardhan-reddy-298136256/" class="social-link">LinkedIn</a>
-                <a href="./RavulaVishnuVardhanReddyResume.pdf" class="social-link">Resume</a>
-            </div>
+            <span class="role">Full Stack Developer</span>
         </div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+            <button id="theme-toggle" title="Switch Theme">🌙</button>
+            <button id="nav-toggle" aria-label="Open menu">&#9776;</button>
+        </nav>
     </header>
 
-    <section id="about" class="section">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <p class="about-text">
-                I'm a passionate full-stack developer.
-                I specialize in creating beautiful, functional websites and applications that solve real-world problems.
-                When I'm not coding, you can find me contributing to open-source projects or writing technical blog posts.
-            </p>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <h3>Frontend</h3>
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
-                    </ul>
-                </div>
-                <div class="skill-card">
-                    <h3>Backend</h3>
-                    <ul>
-                        <li>Node.js</li>
-                        <li>Python</li>
-                        <li>PostgreSQL</li>
-                        <li>MongoDB</li>
-                    </ul>
-                </div>
-                <div class="skill-card">
-                    <h3>Tools</h3>
-                    <ul>
-                        <li>Git</li>
-                        <li>Docker</li>
-                        <li>AWS</li>
-                        <li>Linux</li>
-                    </ul>
-                </div>
+    <section id="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay">
+            <h2 class="hero-title">Ravula Vishnu Vardhan Reddy</h2>
+            <div id="dynamic-role"></div>
+            <div class="hero-links">
+                <a href="./Vishnu_Resume.pdf" target="_blank" class="hero-btn">Resume</a>
+                <a href="https://github.com/RavulaVishnuVardhan" target="_blank" class="hero-btn">GitHub</a>
+                <a href="https://www.linkedin.com/in/ravulavishnuvardhanreddy/" target="_blank"
+                    class="hero-btn">LinkedIn</a>
             </div>
         </div>
+        <img src="./Vishnu1.jpg" alt="Profile" class="hero-character">
+        <a href="#about" class="down-arrow" aria-label="Scroll down">&#x2193;</a>
     </section>
 
-    <section id="education" class="section">
-        <div class="container">
-            <h2 class="section-title">Education</h2>
-            <ul class="education-list">
-                <li><a href="https://anurag.edu.in/">Bachelor of Technology in Computer Science (AI) - Anurag University, 2024</a></li>
-                <li><a href="https://nanoeducation.co.in/">Intermediate - Nano Junior College, 2020</a></li>
-                <li><a href="https://lfhslbnagar.com/">High School - Little Flower High School, 2018</a></li>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I'm a passionate full-stack developer with a strong focus on building clean, responsive, and user-friendly
+            applications. I enjoy working across the stack—from designing intuitive front-end interfaces to architecting
+            robust back-end systems. My goal is always to create solutions that are not just functional, but impactful.
+        </p>
+        <p>
+            Over the years, I've worked with a wide range of technologies including JavaScript, React, Node.js, and
+            Python, among others. I'm constantly learning and adapting to new tools and frameworks to stay ahead in this
+            fast-paced industry. I thrive in collaborative environments where I can solve challenging problems, write
+            scalable code, and continuously improve my skills.
+        </p>
+        <p>
+            Outside of my day-to-day development work, I'm an active contributor to open-source projects and enjoy
+            writing technical blog posts to share insights with the developer community. Whether it’s exploring a new
+            framework, refactoring code for better performance, or helping others learn, I’m always looking for ways to
+            grow and give back.
+        </p>
+        <ul class="quick-info">
+            <li><b>Phone:</b> +91 9160935129</li>
+            <li><b>Email:</b> rvishnuvardhanreddy02@gmail.com</li>
+            <li><b>Location:</b> LB Nagar, Hyderabad</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-bar"></div>
+        <div class="other-skills">
+            <h3>Languages</h3>
+            <ul>
+                <li><b>English:</b> Advanced</li>
+                <li><b>Telugu:</b> Proficient</li>
+                <li><b>Hindi:</b> Intermediate</li>
+            </ul>
+            <h3>Hobbies</h3>
+            <ul>
+                <li>Anime</li>
+                <li>Cricket</li>
+                <li>Books</li>
             </ul>
         </div>
     </section>
 
-    <section id="certifications" class="section">
-        <div class="container">
-            <h2 class="section-title">Certifications</h2>
-            <ul class="certifications-list">
-                <li>Full Stack Web Development - Teks Academy</li>
-                <li><a href="./Infosys Springbord Basics Of Python Certificate.pdf">Basics Of Python - Infosys Springboard</a></li>
-                <li><a href="./SkillsBuild for Students.pdf">AI Foundations -  IBM SkillsBuild</a></li>
-                <li><a href="./Infosys Springboard Python Fundamentals.pdf">Python Fundamentals - Infosys Springboard</a></li>
-                <li><a href="./VishnuRavula-CYBER SECURITY E-certificate.pdf">Cyber Security Essentials -  Cisco Networking Academy</a></li>
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <div class="exp-block">
+            <h3>Frontend Developer Intern</h3>
+            <p><b>NeedZera</b> | Hyderabad, Telangana</p>
+            <span class="period">Jan 2025 – Present</span>
+            <ul>
+                <li>Collaborating with the development team to build and enhance user interfaces using HTML, CSS,
+                    JavaScript, and ReactJS.</li>
+                <li>Assisting in responsive design implementation, bug fixes, and performance optimization.</li>
+                <li>Contributing to real-time project development and agile sprint planning.</li>
             </ul>
         </div>
     </section>
 
-    <section id="projects" class="section projects-section">
-        <div class="container">
-            <h2 class="section-title">Projects</h2>
-            <div class="projects-grid">
-                <article class="project-card">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWZ5TIn7NBppEK3dGGm4DkdscCVJf6Yjj5QA&s" alt="Project 1">
-                    <div class="project-content">
-                        <h3>Amazon Clone</h3>
-                        <p>An Amazon clone built with modern web technologies, replicating the core functionalities of the Amazon e-commerce platform. This project is designed for educational purposes, demonstrating how to build a scalable, responsive, and dynamic e-commerce application.</p>
-                        <div class="project-links">
-                            <a href="https://ravulavishnuvardhan.github.io/Amazon-Clone/" class="button">View Demo</a>
-                        </div>
-                    </div>
-                </article>
-            </div>
+    <section id="education">
+        <h2>Education</h2>
+        <div class="edu-block">
+            <h3>Bachelor of Technology in AI</h3>
+            <p>Anurag University | Hyderabad, Telangana</p>
+            <span class="period">July 2020 – May 2024</span>
+        </div>
+        <div class="edu-block">
+            <h3>Intermediate</h3>
+            <p>NANO Junior College & IIT Academy | Hyderabad, Telangana</p>
+            <span class="period">July 2018 – April 2020</span>
+        </div>
+        <div class="edu-block">
+            <h3>School</h3>
+            <p>Little Flower High School | Hyderabad, Telangana</p>
+            <span class="period">April 2018</span>
         </div>
     </section>
 
-    <section id="contact" class="section contact-section">
-        <div class="container">
-            <h2 class="section-title">Get in Touch</h2>
-            <form class="contact-form">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-                <button type="submit" class="button button-primary">Send Message</button>
-            </form>
-        </div>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-gallery"></div>
     </section>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="social-links">
-                <a href="https://github.com/RavulaVishnuVardhan" class="social-link">GitHub</a>
-                <a href="https://www.linkedin.com/in/ravula-vishnu-vardhan-reddy-298136256/" class="social-link">LinkedIn</a>
-                <a href="./RavulaVishnuVardhanReddyResume.pdf" class="social-link">Resume</a>
-            </div>
-            <p class="copyright">© 2025 Ravula Vishnu Vardhan Reddy. All rights reserved.</p>
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul class="certifications-list">
+            <li>
+                <strong>Full Stack Web Development</strong> – Teks Academy
+            </li>
+            <li>
+                <a href="./Infosys Springbord Basics Of Python Certificate.pdf" target="_blank" rel="noopener">
+                    <strong>Basics Of Python</strong> – Infosys Springboard
+                </a>
+            </li>
+            <li>
+                <a href="./SkillsBuild for Students.pdf" target="_blank" rel="noopener">
+                    <strong>AI Foundations</strong> – IBM SkillsBuild
+                </a>
+            </li>
+            <li>
+                <a href="./Infosys Springboard Python Fundamentals.pdf" target="_blank" rel="noopener">
+                    <strong>Python Fundamentals</strong> – Infosys Springboard
+                </a>
+            </li>
+            <li>
+                <a href="./VishnuRavula-CYBER SECURITY E-certificate.pdf" target="_blank" rel="noopener">
+                    <strong>Cyber Security Essentials</strong> – Cisco Networking Academy
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required autocomplete="off">
+            <input type="email" name="email" placeholder="Email" required autocomplete="off">
+            <textarea name="message" placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div id="form-result"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Ravula Vishnu Vardhan Reddy</p>
+        <div class="footer-links">
+            <a href="https://github.com/RavulaVishnuVardhan" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/ravulavishnuvardhanreddy/" target="_blank">LinkedIn</a>
+            <a href="./Vishnu_Resume.pdf" target="_blank">Resume</a>
         </div>
     </footer>
-    <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/67ee173dfcbadb190e9ecb47/1int0libe';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+    <script src="script.js"></script>
 </body>
+
 </html>
